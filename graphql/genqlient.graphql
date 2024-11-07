@@ -1,0 +1,17 @@
+query GetViewer {
+    viewer {
+        username
+        email
+        createdAt
+    }
+}
+
+mutation UpdateUserEmail($username: String!, $email: String!) {
+    updateUser(input: {username: $username, email: $email}) {
+        user {
+            id
+            username
+            email
+        }
+    }
+}

@@ -1,0 +1,12 @@
+schema: schema/schema.graphql
+operations:
+  - graphql/genqlient.graphql
+generated: client/generated.go
+
+bindings:
+  DateTime:
+    type: time.Time
+  RepoOrViewName:
+    type: string
+  Long:
+    type: int64
