@@ -1,8 +1,8 @@
 ![CrowdStrike Falcon](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo.png)
 
 # Security
-This document outlines security policy and procedures for the CrowdStrike PSFalcon project.
-+ [Supported versions](#supported-psfalcon-versions)
+This document outlines security policy and procedures for the project.
++ [Supported versions](#supported-versions)
 + [Reporting a potential security vulnerability](#reporting-a-potential-security-vulnerability)
 + [Disclosure and Mitigation Process](#disclosure-and-mitigation-process)
 
